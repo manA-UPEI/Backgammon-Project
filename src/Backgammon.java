@@ -8,7 +8,9 @@ public class Backgammon {
         // Create two players
         Player player1 = new Player("Player 1");
         Player player2 = new Player("Player 2");
-        Dice.startFirstRoll(player1,player2);
+        //Dice.startFirstRoll(player1,player2);
+        BackgammonBoard b = new BackgammonBoard();
+
 
     }
 }
